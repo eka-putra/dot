@@ -1,6 +1,0 @@
-#!/bin/sh
-cp /home/x43u/.fluxbox/themes/Ciremai/init /home/x43u/.fluxbox/init
-cp /home/x43u/.fluxbox/themes/Ciremai/apps /home/x43u/.fluxbox/apps
-cp /home/x43u/.fluxbox/themes/Ciremai/.gtkrc-2.0 /home/x43u/.gtkrc-2.0
-cp /home/x43u/.fluxbox/themes/Ciremai/settings.ini /home/x43u/.config/gtk-3.0/settings.ini
-cp /home/x43u/.fluxbox/themes/Ciremai/.fehbg /home/x43u/.fehbg
