@@ -1,0 +1,61 @@
+[begin] (fluxbox)
+[exec] (Apps) {thunar /usr/share/applications} <>
+#[separator]
+[submenu] (Dev) {}
+	[exec] (Intellij IDEA) {gksudo sh /usr/lib/idea-IU-143.1821.5/bin/idea.sh} <>
+	[exec] (XAMPP) {gksudo /opt/lampp/manager-linux.run} <>
+[end]
+[submenu] (Office) {}
+	[exec] (Writer) {libreoffice --writer} <>
+	[exec] (Impress) {libreoffice --impress} <>
+	[exec] (Calc) {libreoffice --calc} <>
+	[exec] (Math) {libreoffice --math} <>
+	[exec] (Draw) {libreoffice --draw} <>
+	[exec] (Base) {libreoffice --base} <>
+[end]
+[submenu] (Design) {}
+	[exec] (Inkscape) {inkscape} <>
+	[exec] (GIMP) {gimp-2.8} <>
+	[exec] (Dia) {dia} <>
+[end]
+[submenu] (Setting) {}
+	[submenu] (Fluxbox) {}
+		[submenu] (Themes) {}
+			[exec] (Nela) {/home/x43u/.fluxbox/themes/Nela/Nela}
+			[exec] (Ciremai) {/home/x43u/.fluxbox/themes/Ciremai/Ciremai}
+		[end]
+#		[submenu] (Styles) {}
+#			[stylesdir] (~/.fluxbox/styles)
+#		[end]
+		[config] (Configuration)
+		[reconfig] (Reconfigure)
+		[restart] (Restart)
+	[end]
+	[submenu] (Conky) {}
+		[exec] (Edit .conkyrc) {geany ~/.conkyrc} <>
+		[exec] (Conkywonky) {conkywonky} <>
+	[end]
+	[exec] (Wallpaper) {geany ~/.fehbg} <>
+	[exec] (lxappearance) {lxappearance} <>
+[end]
+#[separator]
+#[exec] (Exit) {xf-exit} <>
+[submenu] (Other) {}
+	#[exec] (Term) {terminator} <>
+	#[exec] (Firefox) {firefox} <>
+	#[exec] (Thunar) {thunar} <>
+	#[exec] (Sublime) {/usr/bin/subl} <>
+	#[exec] (VBox) {virtualbox} <>
+	#[exec] (XChat) {xchat} <>
+	[exec] (SSR) {simplescreenrecorder --logfile} <>
+	[exec] (Chromium) {chromium-browser} <>
+	[exec] (Opmin) {java -jar /home/eka1/microemulator-2.0.4/microemulator.jar -cp /home/eka1/microemulator-2.0.4/lib/microemu-jsr-75.jar org.microemu.app.Main --impl org.microemu.cldc.file.FileSystem org.microemu.examples.fcview.FCViewMIDlet /home/eka1/microemulator-2.0.4/apps/mini8.jar} <>
+	#[exec] (VBA) {gvba} <>
+[end]
+[submenu] (Exit) {}
+	[exec] (Logout) {killall fluxbox} <>
+	[exec] (Lock) {i3lock -n -ti ~/Pictures/ides.png} <>
+	[exec] (Reboot) {dbus-send --system --print-reply --dest=org.freedesktop.login1 /org/freedesktop/login1 "org.freedesktop.login1.Manager.Reboot" boolean:true} <>
+	[exec] (Shutdown) {dbus-send --system --print-reply --dest=org.freedesktop.login1 /org/freedesktop/login1 "org.freedesktop.login1.Manager.PowerOff" boolean:true} <>
+[end]
+[end]

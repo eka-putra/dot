@@ -1,0 +1,62 @@
+# conky configuration
+#
+# The list of variables has been removed from this file in favour
+# of keeping the documentation more maintainable.
+# Check http://conky.sf.net for an up-to-date-list.
+#
+# For ideas about how to modify conky, please see:
+# http://crunchbanglinux.org/forums/topic/59/my-conky-config/
+#
+# For help with conky, please see:
+# http://crunchbanglinux.org/forums/topic/2047/conky-help/
+#
+# Enjoy! :)
+##############################################
+# Settings
+##############################################
+background yes
+use_xft yes
+xftfont AvantGarde LT Medium:size=7
+xftalpha 1
+update_interval 1.0
+total_run_times 0
+own_window yes
+own_window_transparent no
+own_window_colour 2d2d2d
+own_window_type desktop
+#own_window_argb_visual yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+#minimum_size 181 12
+#maximum_width 186
+minimum_size 167 12
+maximum_width 177
+#maximum_width 177
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+default_color 656667
+default_shade_color 000000
+default_outline_color 828282
+alignment top_right
+gap_x 5
+gap_y 5
+no_buffers yes
+uppercase no
+cpu_avg_samples 2
+override_utf8_locale yes
+##############################################
+#  Output
+##############################################
+TEXT
+#S Y S T E M    I N F O
+#${hr}
+#Uptime:$alignr$uptime
+#Kernel:$alignr$kernel
+#RAM:$alignr$mem/$memmax
+#Swap usage:$alignr$swap/$swapmax
+#Disk usage:$alignr${fs_used /}/${fs_size /}
+#CPU usage:$alignr${cpu cpu0}%
+#${color #626e8a}  ${font FontAwesome:size=7}${font} ${color #c0c0c0}${exec acpi -b | awk '{ print $4 }' | sed 's/,//g'}  ${voffset -1}${color #626e8a}${font FontAwesome:size=7}${font} ${color #c0c0c0}${exec pactl list sinks | grep "Volume: 0"| tail -n 1 | awk '{print substr($3, 1, index($3, "%") - 1)}'}%  ${voffset -1}${color #626e8a}${font FontAwesome:size=7}${font} ${color #c0c0c0}${time %a %d %b, %H:%M}
+${color #626e8a}  B ${color #c0c0c0}${exec acpi -b | awk '{ print $4 }' | sed 's/,//g'}  ${color #626e8a}V ${color #c0c0c0}${exec pactl list sinks | grep "Volume: 0"| tail -n 1 | awk '{print substr($3, 1, index($3, "%") - 1)}'}%  ${color #626e8a}T ${color #c0c0c0}${time %a %d %b, %H:%M}

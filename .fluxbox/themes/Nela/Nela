@@ -1,0 +1,6 @@
+#!/bin/sh
+cp /home/x43u/.fluxbox/themes/Nela/init /home/x43u/.fluxbox/init
+cp /home/x43u/.fluxbox/themes/Nela/apps /home/x43u/.fluxbox/apps
+cp /home/x43u/.fluxbox/themes/Nela/.gtkrc-2.0 /home/x43u/.gtkrc-2.0
+cp /home/x43u/.fluxbox/themes/Nela/settings.ini /home/x43u/.config/gtk-3.0/settings.ini
+cp /home/x43u/.fluxbox/themes/Nela/.fehbg /home/x43u/.fehbg

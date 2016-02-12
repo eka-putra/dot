@@ -1,0 +1,155 @@
+######################################################################
+###########################################  WINDOW  #################
+######################################################################
+
+# round corners (not very smooth, uncomment to enable)
+#	window.roundCorners: TopLeft, TopRight, BottomLeft, BottomRight
+
+# window borders
+	window.borderWidth: 0
+	window.borderColor: #F6F6F6
+
+# titlebar controls
+	# close
+	window.close.pixmap: closes.xpm
+	window.close.unfocus.pixmap: unfocus1.xpm
+	window.close.pressed.pixmap: closes.xpm
+	
+	# maximize
+	window.maximize.pixmap: max.xpm
+	window.maximize.unfocus.pixmap: unfocus1.xpm
+	window.maximize.pressed.pixmap: max.xpm
+	
+	# minimize
+	window.iconify.pixmap: min.xpm
+	window.iconify.unfocus.pixmap: unfocus1.xpm
+	window.iconify.pressed.pixmap: min.xpm
+	
+	# stick
+	window.stick.pixmap: stickk1.xpm
+	window.stick.unfocus.pixmap: stickk1.xpm
+	window.stick.pressed.pixmap: stickk1.xpm
+	
+	# stuck
+	window.stuck.pixmap: stickk.xpm
+	window.stuck.unfocus.pixmap: stickk1.xpm
+
+# titlebar font	
+	window.font:				sans-10
+
+# handle and grips
+	window.grip.focus:			flat solid
+	window.grip.focus.color:		#F6F6F6
+
+	window.grip.unfocus:			flat solid
+	window.grip.unfocus.color:		#F6F6F6
+	
+	window.handle.focus:			flat solid
+	window.handle.focus.color:		#F6F6F6
+	
+	window.handle.unfocus:			flat solid
+	window.handle.unfocus.color:		#F6F6F6
+
+	window.handleWidth:			0
+
+	window.justify:				Center
+
+# titlebar label	
+	window.label.focus:			parentrelative
+	window.label.unfocus:			parentrelative
+	window.label.focus.textColor:		#494949
+	window.label.unfocus.textColor:		#aaaaaa
+
+# title bar
+	window.title.height:			20
+	window.title.focus:			flat solid
+	window.title.focus.color:		#DCDCDC
+	window.title.unfocus:			flat solid
+	window.title.unfocus.color:		#DCDCDC
+
+######################################################################
+###########################################  MENU  ###################
+######################################################################
+
+menu.bevelWidth:			2
+menu.borderWidth:			0
+menu.borderColor:			#FCFCFC
+
+menu.bullet:				empty
+menu.bullet.position:			right
+menu.submenu.pixmap:			bullet.xpm
+menu.bullet.pixmap:			bullet.xpm
+menu.hilite.submenu.pixmap:		bullet_hilight.xpm
+
+menu.frame:				flat solid
+menu.frame.color:			#dedede
+menu.frame.font:			sans-8
+menu.frame.justify:			Left
+menu.frame.textColor:			#000000
+
+menu.hilite:				solid
+menu.hilite.color:			#1a80b6
+menu.hilite.textColor:			#ffffff
+
+menu.itemHeight:			22
+
+menu.title:				flat solid
+menu.title.color:			#dedede
+menu.title.font:			sans-0
+menu.title.textColor:			#8F8F8F
+menu.title.justify:			center
+menu.titleHeight:			0
+
+######################################################################
+###########################################  SLIT  ###################--
+######################################################################
+slit:					flat solid
+slit.color:				#F6F6F6
+slit.bevelWidth:			2
+
+######################################################################
+###########################################  TOOLBAR  ################
+######################################################################
+
+toolbar.height:				20
+
+toolbar:				solid
+toolbar.color:				#dedede
+
+toolbar.bevelWidth:			0
+toolbar.BorderWidth:			0
+
+toolbar.button:				solid
+toolbar.button.color:			#dedede
+
+toolbar.button.pressed:			solid
+toolbar.button.pressed.color:		#dedede
+
+toolbar.clock:			solid	
+toolbar.clock.font:			sans-8
+toolbar.clock.justify:			Center
+toolbar.clock.color:			#dedede
+toolbar.clock.textColor:		#000000
+
+toolbar.iconbar.focused:	solid	
+toolbar.iconbar.focused.color:		#1a80b6
+
+toolbar.iconbar.unfocused:	solid	
+toolbar.iconbar.unfocused.color:	#dedede
+
+toolbar.iconbar.empty:		solid
+toolbar.iconbar.empty.color: #dedede	
+
+toolbar.iconbar.focused.font:		sans-8
+toolbar.iconbar.focused.justify:	center
+toolbar.iconbar.focused.textColor:	#f9f9f9
+
+toolbar.iconbar.unfocused.font:		sans-8
+toolbar.iconbar.unfocused.justify:	center
+toolbar.iconbar.unfocused.textColor:	#555555
+
+toolbar.workspace.font:			sans-8
+toolbar.workspace.justify:		Center
+toolbar.workspace.textColor:		#000000
+toolbar.workspace:		solid	
+toolbar.workspace.color:		#dedede
