@@ -1,0 +1,20 @@
+pane	tada	0	:bash	1	:*	0	:/home/tada/.tmux/resurrect	1	bash	:
+pane	tada	1	:ubpi	0	:-	0	:/home/tada/x/ui-distribution	1	bash	:
+pane	tada	1	:ubpi	0	:-	1	:/home/tada/x/bridge	0	bash	:
+pane	tada	1	:ubpi	0	:-	2	:/home/tada/x/processor	0	bash	:
+pane	tada	1	:ubpi	0	:-	3	:/home/tada/x/inventory	0	bash	:
+pane	tada	2	:ovve	0	:	0	:/home/tada/x/order	1	bash	:
+pane	tada	2	:ovve	0	:	1	:/home/tada/x/vendor	0	bash	:
+pane	tada	2	:ovve	0	:	2	:/home/tada/x/vendor-generate-egift	0	bash	:
+pane	tada	2	:ovve	0	:	3	:/home/tada/x/egift	0	bash	:
+pane	tada	3	:worker	0	:	0	:/home/tada	0	bash	:
+pane	tada	3	:worker	0	:	1	:/home/tada	0	bash	:
+pane	tada	3	:worker	0	:	2	:/home/tada	0	bash	:
+pane	tada	3	:worker	0	:	3	:/home/tada	0	bash	:
+pane	tada	3	:worker	0	:	4	:/home/tada/x/worker-controller	0	bash	:
+pane	tada	3	:worker	0	:	5	:/home/tada/x/worker-extractor	1	bash	:
+window	tada	0	1	:*	eb23,239x59,0,0,81
+window	tada	1	0	:-	ea07,239x59,0,0{119x59,0,0[119x29,0,0,0,119x29,0,30,4],119x59,120,0[119x29,120,0,2,119x29,120,30,3]}
+window	tada	2	0	:	6a17,239x59,0,0{119x59,0,0[119x29,0,0,1,119x29,0,30,7],119x59,120,0[119x29,120,0,5,119x29,120,30,6]}
+window	tada	3	0	:	ae28,239x59,0,0{118x59,0,0[118x29,0,0{59x29,0,0,8,58x29,60,0,13},118x14,0,30,11,118x14,0,45,14],120x59,119,0[120x29,119,0,9,120x29,119,30,10]}
+state	tada	
